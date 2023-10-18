@@ -1,3 +1,4 @@
+import 'package:chatapp/widgets/Constants.dart';
 import 'package:flutter/material.dart';
 
 class ImageAndBackground extends StatelessWidget {
@@ -17,7 +18,7 @@ class ImageAndBackground extends StatelessWidget {
         child: Container(
           width: MediaQuery.of(context).size.width * 0.4,
           height: MediaQuery.of(context).size.height * 0.3,
-          child: Image.asset('assets/images/logo.png'),
+          child: Image.asset(logo),
         ),
       ),
     );

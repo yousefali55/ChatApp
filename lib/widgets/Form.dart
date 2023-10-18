@@ -78,13 +78,13 @@ class FormWidget extends StatelessWidget {
                     ),
                     onPressed: submit,
                     child: Padding(
-                      padding: EdgeInsets.symmetric(
+                      padding: const EdgeInsets.symmetric(
                         horizontal: 60,
                         vertical: 13,
                       ),
                       child: Text(
                         text1,
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontSize: 18.0,
                         ),
                       ),
@@ -105,7 +105,7 @@ class FormWidget extends StatelessWidget {
                       ),
                       TextButton(
                         onPressed:
-                            onPressed, // Use the required function parameter
+                            onPressed, 
                         child: Text(
                           textButton,
                           style: GoogleFonts.inter(
